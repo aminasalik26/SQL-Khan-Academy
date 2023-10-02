@@ -50,17 +50,25 @@ INSERT INTO Shoes4u VALUES
 
 
 -- Display all the data in the Shoes4u table
-SELECT * FROM Shoes4u;
+SELECT * 
+FROM Shoes4u;
 
 -- Display data from the Shoes4u table, ordered by aisle
-SELECT * FROM Shoes4u ORDER BY aisle;
+SELECT * 
+FROM Shoes4u 
+ORDER BY aisle;
 
 -- Calculate the total quantity of shoes in the inventory
-SELECT SUM(quantity) FROM Shoes4u;
+SELECT SUM(quantity) 
+FROM Shoes4u;
 
 -- Calculate the total price of all shoes in the inventory
-SELECT SUM(Price) FROM Shoes4u;
+SELECT SUM(Price) 
+FROM Shoes4u;
 
 -- Display shoes with a price less than 20 using an aggregate function
-SELECT * FROM Shoes4u WHERE Price < 20 ORDER BY AISLE;
+SELECT * 
+FROM Shoes4u 
+WHERE Price < 20 
+ORDER BY AISLE;
 
