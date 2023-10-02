@@ -1,5 +1,5 @@
 # SQLproject
-This SQL database project, named Shoes4u, is designed to store and manage information about shoes in a store. It includes a table to store details about each shoe, such as the name, aisle location, quantity in stock, and price.
+This SQL database project encompasses projects from Khan Academy quizzes and challenges. It involves the creation of queries I worked on to retrieve, update, and filter data using many different clauses.
 
 
 Getting Started
