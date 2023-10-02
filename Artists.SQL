@@ -72,10 +72,16 @@ INSERT INTO songs (artist, title)
     
 
 -- Retrieve the titles of songs by the artist "Queen"
-SELECT title FROM songs WHERE artist ="Queen";
+SELECT title 
+FROM songs 
+WHERE artist ="Queen";
 
 -- Retrieve the names of artists with the genre "Pop"
-SELECT name FROM artists WHERE genre="Pop";
+SELECT name 
+FROM artists 
+WHERE genre="Pop";
 
 -- Retrieve the titles of songs by artists with the genre "Pop"
-SELECT title FROM songs WHERE artist IN (SELECT name FROM artists WHERE genre="Pop");
+SELECT title 
+FROM songs 
+WHERE artist IN (SELECT name FROM artists WHERE genre="Pop");
