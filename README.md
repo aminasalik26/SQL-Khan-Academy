@@ -1,7 +1,4 @@
-# SQL-Khan-Academy
-This SQL database project encompasses projects from Khan Academy quizzes and challenges. It involves the creation of queries I worked on to retrieve, update, and filter data using many different clauses.
-
-
+# SQL-Projects
 Getting Started
 To set up and use this SQL database project, follow these steps:
 
