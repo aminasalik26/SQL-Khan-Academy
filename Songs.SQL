@@ -32,10 +32,15 @@ INSERT INTO songs (title, artist, mood, duration, released)
     VALUES ("Call me maybe", "Carly Rae Jepsen", "happy", 193, 2011);
     
 -- Retrieve the titles of all songs in the "songs" table
-SELECT title FROM songs;
+SELECT title 
+FROM songs;
     
 -- Retrieve the titles of songs released after 1990 or with a mood of 'epic'
-SELECT title FROM songs WHERE released>1990 OR mood = 'epic';
+SELECT title 
+FROM songs 
+WHERE released>1990 OR mood = 'epic';
 
 -- Retrieve the titles of songs with a mood of 'epic,' released after 1990 and with a duration less than 240 seconds
-SELECT title FROM songs WHERE mood='epic' AND released>1990 AND duration<240;
+SELECT title 
+FROM songs 
+WHERE mood='epic' AND released>1990 AND duration<240;
