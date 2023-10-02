@@ -48,7 +48,7 @@ INSERT INTO Shoes4u VALUES
 (15, "Erica trainers", 5, 1, 16);
 
 
-/* Displays the data for the table that has just been created */
+/* Showcases the data from the recently created table */
 SELECT * FROM Shoes4u;
 
 /* Orders the data by a specific coloumn */
