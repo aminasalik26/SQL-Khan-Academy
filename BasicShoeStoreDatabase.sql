@@ -3,7 +3,7 @@ create a shop that specialises in it. You'll need to set up a table to organise 
 ensure it includes at least 15 items. Your table should have a minimum of 5 columns to store relevant data for each item.
 */
 
-/* Creates a Shoe table */
+-- Create a table named Shoes4u to store information about shoes
 
 CREATE TABLE Shoes4u 
 (id INTEGER primary key,
@@ -14,7 +14,8 @@ Price INTEGER
 );
 
 
-/* Add information to the table to create rows */
+-- Insert data into the Shoes4u table
+-- Format: (id, name, Aisle, Quantity, Price)
 
 INSERT INTO Shoes4u VALUES 
 (1, "Allen boots", 34, 2, 38);
@@ -48,16 +49,18 @@ INSERT INTO Shoes4u VALUES
 (15, "Erica trainers", 5, 1, 16);
 
 
-/* Showcases the data from the recently created table */
+-- Display all the data in the Shoes4u table
 SELECT * FROM Shoes4u;
 
-/* Orders the data by a specific coloumn */
+-- Display data from the Shoes4u table, ordered by aisle
 SELECT * FROM Shoes4u ORDER BY aisle;
 
-/* Gets the total for a specific column */
+-- Calculate the total quantity of shoes in the inventory
 SELECT SUM(quantity) FROM Shoes4u;
+
+-- Calculate the total price of all shoes in the inventory
 SELECT SUM(Price) FROM Shoes4u;
 
-/* Filters data sing an aggregate function */ 
+-- Display shoes with a price less than 20 using an aggregate function
 SELECT * FROM Shoes4u WHERE Price < 20 ORDER BY AISLE;
 
