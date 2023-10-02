@@ -135,8 +135,6 @@ SELECT
   MAX(Space_Walks_hr) AS Max_Space_Walks_hr,
  -- Calculate the minimum total hours of spacewalks.
   MIN(Space_Walks_hr) AS Min_Space_Walks_hr
-  
--- Specify the source table.
 FROM astronauts;
 
 -- What about those numbers per category in the data (using HAVING)?
